@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: #eee;
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+}
+
+img {
+    display: block;
+}
+
+input, button {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background: rgb(66, 66, 66);
+    border: 1px solid rgb(70, 70, 70);
+    outline: none;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.125);
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(88, 88, 88);
+}
+
+button:active {
+    background: rgb(44, 44, 44);
+}
+
+input:focus {
+    background: rgb(44, 44, 44);
+}
+
+.options-form {
+    margin: 20px 0;
+}
+
+.log {
+    margin: 20px 0;
+    font-family: monospace;
+    opacity: 0.5;
+    font-size: 11px;
+}
+
+.log-line {
+
+}
